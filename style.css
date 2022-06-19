@@ -7,6 +7,13 @@ body{
 .container, main-wrapper{
     max-width: 400px;
 }
+
+.header-wrapper{
+    max-width: 378px;
+    margin: auto;
+    padding: 0px;
+
+}
 input[type=text],
 input[type=text]:focus{
     color: #fff;
@@ -16,6 +23,10 @@ input[type=text]:focus{
 }
 .todos{
     background-color:#f9f9f989;
+}
+
+.dragging {
+    opacity: 0.3;
 }
 
 .delete{

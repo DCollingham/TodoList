@@ -8,23 +8,26 @@
     <link rel="stylesheet" href="style.css">
     <title>To do list</title>
 </head>
-<body>
-    <div class="container main-wrapper mt-5">
-        <header class=" text-center text-light-my-4">
-            <h1 class="my-4">Todo List</h1>
-                <form action="" class="search">
-                    <input type="text" class="form-control m-auto mb-2" placeholder="Search List">
-                </form>
-        </header>
 
+        <div class="header-wrapper">
+            <header class=" text-center text-light-my-4">
+                <h1 class="my-4">Todo List</h1>
+                    <form action="" class="search">
+                        <input type="text" class="form-control m-auto" placeholder="Search List">
+                    </form>
+            </header>
+        </div>
+        
+        <body>
+        <div class="container main-wrapper mt-3">
         <ul class="list-group mx-auto text-light">
-            <li class="list-group-item d-flex justify-content-between align-items-center my-1 todos">
+            <li class="list-group-item d-flex justify-content-between align-items-center my-1 todos" draggable="true">
                 <span>Do Something</span>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center my-1 todos">
+            <li class="list-group-item d-flex justify-content-between align-items-center my-1 todos" draggable="true">
                 <span>Do Something else</span>
             </li>
-            <li class="list-group-item d-flex justify-content-between align-items-center my-1 todos">
+            <li class="list-group-item d-flex justify-content-between align-items-center my-1 todos" draggable="true">
                 <span>and Something</span>
             </li>
         </ul>
